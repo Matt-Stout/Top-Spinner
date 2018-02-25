@@ -1,7 +1,7 @@
 # Top-Spinner
 Create a 3D hierarchical modal using TWGL transformations
 
-This was a program assignment for CS 559: Computer Graphics
+This was a program assignment for CS 559: Computer Graphics, Spring 2018
 
 There are three sliders that control animation of the object.
 - The top slider allows you to rotate the object about the y-axis
