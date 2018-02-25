@@ -1,0 +1,22 @@
+﻿<!DOCTYPE html>
+<html>
+<head runat="server">
+    <meta charset="utf-8" />
+    <title>Program 3</title>
+</head>
+<body>
+    <h1>Top-Spinner Helicopter</h1>
+    <canvas id="myCanvas"
+            width="400" height="400"
+            style="border: 1px solid #000;"></canvas>
+    <br />
+    <p>Rotate the object around the y-axis: </p>
+    <input id="slider1" type="range" min="0" max="200" /><br />
+    <p>Spin the propeller one direction while spinning the top-spinner the opposite direction: </p>
+    <input id="slider2" type="range" min="0" max="200" /><br />
+    <p>Zoom closer to and farther away from the object: </p>
+    <input id="slider3" type="range" min="0" max="50" />
+    <script src="http://graphics.cs.wisc.edu/JS/twgl-full.min.js"></script>
+    <script src="Top-Spinner.js"></script>
+</body>
+</html>
